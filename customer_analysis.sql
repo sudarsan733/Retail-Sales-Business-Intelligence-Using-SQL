@@ -13,7 +13,7 @@ ORDER BY Total_items DESC
 LIMIT 10;
 
 -- How many orders has each customer placed?
-SELECT Customer_Names,COUNT(Order_ID) AS Total_orders
+SELECT Customer_Name,COUNT(Order_ID) AS Total_orders
 FROM sales
 GROUP BY Customer_Name
 ORDER BY Total_orders DESC;
