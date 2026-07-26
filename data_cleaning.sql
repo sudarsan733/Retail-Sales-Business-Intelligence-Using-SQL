@@ -17,7 +17,7 @@ WHERE Price BETWEEN 500 AND 1000;
 -- Find customers whose name starts with 'A'
 SELECT *
 FROM sales
-WHERE Customer_Name LIKE '%A';
+WHERE Customer_Name LIKE 'A%';
 
 
 
